@@ -1,0 +1,31 @@
+.footer__content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__col{
+  display: flex;
+  align-items: center;
+
+}
+
+.footer__col--align--right {
+  align-items: flex-end;
+}
+
+.footer__logo{
+  margin-right: 85px; 
+}
+
+.footer-container__content{
+  border-top: 1px solid #fff;
+ }
+
+ .footer__logo{
+  margin-top: 45px;
+ }
+
+.footer__nav{
+  margin-top: 59px;
+}

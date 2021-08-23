@@ -1,0 +1,28 @@
+.contacts{
+  font-style: normal;
+  float: right;
+}
+
+.contacts__tel, .contacts__workhours {
+  color: #fff;
+  
+
+}
+.contacts__tel{
+  font-size: 26px;
+  line-height: 34px;
+  text-decoration: none;
+}
+.contacts__workhours{
+  font-size: 13px;
+  width: max-content;
+  margin-left: auto;
+}
+ .contacts__price{
+  font-size: 11px;
+  line-height: 20px;
+  color: #9A9A9A;
+  margin-top: 37px;
+  margin-left: 30px;
+
+ }

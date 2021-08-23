@@ -1,0 +1,63 @@
+.button{
+  border-radius: 35px;
+  border-style: none;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+.tour__button{
+  background: #F5170E;
+  padding: 19px 40px;
+}
+
+.tour__button:hover{
+  background: #DA0100;
+}
+.tour__button-btn{
+  color: #fff; 
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
+.features__button{
+  width: 135px;
+  height: 55px;
+  color: #F5170E;
+  background: #fff;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  border: 1px solid #F5170E;
+  box-sizing: border-box;
+  background-color: transparent;
+  text-decoration: none;
+  margin-bottom: 26px;
+}
+  
+
+.features__button:hover{
+  background-color: #F5170E;
+  color: #fff;
+  
+}
+
+
+
+.about__button{
+  background: #F5170E;
+  padding: 19px 40px;
+}
+
+.about__button:hover{
+  background: #DA0100;
+}
+.about__button-btn{
+  color: #fff; 
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+}
