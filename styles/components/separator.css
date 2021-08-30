@@ -1,0 +1,19 @@
+.separator {
+  background: url(../../../img/couple.png) right 22% bottom no-repeat, url(./../../img/Rectangle.png) center center /cover no-repeat;
+  min-height: 363px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.separator__content {
+  max-width: 50%;
+  display: inline-flex;
+}
+
+.separator__title {
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 65px;
+  color: #FFFFFF;
+}

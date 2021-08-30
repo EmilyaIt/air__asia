@@ -1,0 +1,59 @@
+.welcome--page{
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url(./../img/bg__wp.png) center bottom/ cover no-repeat;
+}
+
+
+
+.welcome--page__main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: zoom 7s ease-in;
+  opacity: 0;
+  animation-fill-mode: forwards;
+}
+
+.welcome--page__logo-icon {
+  width: 279px;
+  
+}
+.welcome--page__link {
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 63px;
+}
+
+@keyframes zoom {
+0% {
+  transform: scale(.7);
+}
+
+20% {
+  transform: scale(1.15);
+}
+
+40% {
+  transform: scale(.9);
+}
+60% {
+  transform: scale(1.1);
+}
+75% {
+  transform: scale(.95);
+}
+90% {
+  transform: scale(1);
+}
+100% {
+  transform: scale(1);
+  opacity: 1;
+}
+}

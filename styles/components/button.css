@@ -1,34 +1,32 @@
 .button{
+  width: 168px;
+  height: 55px;
   border-radius: 35px;
   border-style: none;
   text-transform: uppercase;
   text-decoration: none;
-  
+  font-size: 14px;
+  line-height: 19px;
+  font-weight: bold;
 }
+
 .tour__button{
   background: #F5170E;
-  padding: 19px 40px;
+  color: #fff; 
+  
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 .tour__button:hover{
   background: #DA0100;
 }
-.tour__button-btn{
-  color: #fff; 
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-  
-}
+
 .features__button{
   width: 135px;
   height: 55px;
   color: #F5170E;
   background: #fff;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 19px;
   border: 1px solid #F5170E;
   box-sizing: border-box;
   background-color: transparent;
@@ -43,11 +41,10 @@
   
 }
 
-
-
 .about__button{
   background: #F5170E;
-  padding: 19px 40px;
+  color: #fff
+  
 }
 
 .about__button:hover{
@@ -55,9 +52,60 @@
 }
 .about__button-btn{
   color: #fff; 
+
+  
+}
+
+.welcome--page__button{
+  background: #F5170E;
+  color: #fff;
+  text-decoration: none;
+}
+
+.welcome--page__button:hover{
+  background: #DA0100;
+
+}
+.welcome--page__main {
+  color: #fff;
+  text-decoration: none;
+}
+
+.form__buttons {
+  margin-left: auto;
+}
+.form__buttons--btn--reset {
+  background: #8E8E8E;
+  color: #FFFFFF;
+  margin-right: 12px;
+  
+}
+
+.form__buttons--btn--reset:hover {
+  background: #2B2B2B;
+
+}
+
+.form__buttons--btn--submit {
+  background: #F5170E;
+  color: #fff;
+}
+
+.form__buttons--btn--submit:hover {
+  background:  #DA0100;
+  
+}
+
+.service__button {
+  background: #F5170E;
+  padding: 19px 40px;
+  color: #fff; 
   font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
-  
+}
+ 
+.service__button:hover{
+  background: #DA0100;
 }

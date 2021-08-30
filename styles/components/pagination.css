@@ -2,10 +2,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
+}
+
+.pagination-main {
   margin-top: -2px;
   margin-bottom: 152.5px;
 }
-
 .pagination__distlay, .pagination__list{
   font-weight: normal;
   font-size: 16px;
@@ -49,16 +52,20 @@
   text-align: center;
 
  }
-.pagination--light{
+
+
+.pagination__services {
   margin-bottom: 76px;
 }
- .paginator__link--light{
-   color: #000000;
- }
- .pagination--light{
+.paginator__link--light{
   color: #000000;
  }
- .pagination--light .pagination__item {
+
+.pagination--light{
+  color: #000000;
+ }
+
+.pagination--light .pagination__item {
   color: green;
  }
 
@@ -72,23 +79,7 @@
   background: #F5170E;
 }
 
-.inner-section {
-  background: #fff;
-  color: #1A1B1E;
-  padding: 92px 0;
 
-}
-
-.inner-section--bg--grey{
-  background: #F4F5F5;
-}
-
-.inner-section__title {
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 65px;
-  margin-bottom: 75px;
-}
 
 .partners__item{
   margin-left: 46px;
@@ -116,3 +107,8 @@
   display: flex;
   flex-wrap: wrap;
  }
+
+ .pagination--reviews {
+  
+  padding-bottom: 80px;
+}

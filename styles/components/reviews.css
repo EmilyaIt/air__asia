@@ -1,0 +1,21 @@
+.reviews {
+  display: flex;
+  flex-direction: column;
+  background: url(./../../img/headline--reviews.png) center center/ cover no-repeat;
+  min-height: 412px;
+}
+
+.reviews__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.reviews--title {
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 73px;
+}
+

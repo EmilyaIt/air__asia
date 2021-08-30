@@ -3,8 +3,13 @@
   justify-content: space-between;
   padding-top: 26px;
   align-items: center;
-  margin-bottom: 122px;
+  margin-bottom: 91px;
 }
+
+.header__tour{
+  margin-bottom: 113px;
+}
+
 
 .header__col {
   display: flex;
