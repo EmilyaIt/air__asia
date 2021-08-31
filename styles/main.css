@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 @import url(./layout/normalize.css);
 @import url(./layout/base.css);
 @import url(./components/header.css);
@@ -15,22 +14,18 @@
 @import url(./components/inner.css);
 @import url(./components/form.css);
 @import url(./components/separator.css);
+@import url(./components/wp.css);
+@import url(./components/services.css);
 
 
-body{
-  background-color: #001821;
-  color: #fff;
-  font: 400px 1px/1.42 "Open Sans", sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+
 
 .tour{
-  
   width: 45%;
   margin-bottom: 246px;
   
 }
+
 .tour__title{
   font-size: 72px;
   font-weight: bold;
@@ -335,167 +330,9 @@ body{
 
 
 
-/*oshvcjk;dljzv;mcx*/
 
 
 
-
-.top--line {
-  min-width: 412px;
-  display: flex;
-  flex-direction: column;
-  background: url(./../img/headline--wp.png) right top no-repeat;
-}
-
-.top--line__container {
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  justify-content: space-between;
-}
-
-.services--title {
-  font-weight: bold;
-  font-size: 72px;
-  line-height: 98px;
-  margin-bottom: 104px;
-}
-
-
-
-
-.page-content {
-  display: flex;
-  background: #F2F2F2;
-  color: #303030;
-  padding-top: 40px 0;
-
-}
-.services{
-  margin-top: 99px;
-  margin-bottom: 68px;
-}
-
-.services__item{
-  margin-bottom: 48px;
- }
-
-.services__item:last-child{
-  margin-bottom: 0;
-}
-
-.service{
-  display: flex;
- 
-}
-
-.service__img{
-  width: 40%;
-  margin-right: 5%;
-}
-
-.service__content {
-  flex: 1;
-  margin-top: -10px;
-}
-
-.service__title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 49px;
-  margin-bottom: 30.5px;
-  margin-top: 17px;
-  color: #000000;
-
-}
-
-.service__button {
-  background: #F5170E;
-  padding: 19px 40px;
-  color: #fff; 
-  font-size: 14px;
-  font-weight: bold;
-  text-transform: uppercase;
-  text-decoration: none;
-}
- 
-.service__button:hover{
-  background: #DA0100;
-}
-
-.service__desc {
-  font-size: 16px;
-  line-height: 27px;
-  margin-bottom: 35px;
-}
-
-
-
-
-
-/*dgblhvhirovnvlk */
-
-
-
-.welcome--page{
-  display: flex;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-  background: url(./../img/bg__wp.png) center bottom/ cover no-repeat;
-}
-
-
-
-.welcome--page__main{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  animation: zoom 1s ;
-  opacity: 0;
-  animation-fill-mode: forwards;
-}
-
-.welcome--page__logo-icon {
-  width: 279px;
-  
-}
-.welcome--page__link {
-  font-size: 18px;
-  line-height: 25px;
-  margin-bottom: 63px;
-}
-
-@keyframes zoom {
-0% {
-  transform: scale(.7);
-}
-
-20% {
-  transform: scale(1.15);
-}
-
-40% {
-  transform: scale(.9);
-}
-60% {
-  transform: scale(1.1);
-}
-75% {
-  transform: scale(.5);
-}
-90% {
-  transform: scale(1);
-}
-100% {
-  transform: scale(1);
-  opacity: 1;
-}
-}
 
 
 
