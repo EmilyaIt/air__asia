@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 .cards {
-  background: #F2F2F2;
+  background: #F4F5F5;
 }
 
 .cards__list {
@@ -41,7 +41,7 @@
 }
 
 .card {
-  background: #F4F5F5;
+  background: #F2F2F2;
   border-radius: 5px;
   width: 557px;
   height: 542px;

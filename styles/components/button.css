@@ -56,17 +56,17 @@
   
 }
 
-.welcome--page__button{
+.welcome-page__button{
   background: #F5170E;
   color: #fff;
   text-decoration: none;
 }
 
-.welcome--page__button:hover{
+.welcome-page__button:hover{
   background: #DA0100;
 
 }
-.welcome--page__main {
+.welcome-page__main {
   color: #fff;
   text-decoration: none;
 }

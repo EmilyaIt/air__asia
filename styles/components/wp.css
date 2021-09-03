@@ -1,4 +1,4 @@
-.welcome--page{
+.welcome-page{
   display: flex;
   position: fixed;
   top: 0;
@@ -7,12 +7,12 @@
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url(./../img/bg__wp.png) center bottom/ cover no-repeat;
+  background: url(./../../img/bg__wp.png) center bottom/ cover no-repeat;
 }
 
 
 
-.welcome--page__main{
+.welcome-page__main{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -21,11 +21,11 @@
   animation-fill-mode: forwards;
 }
 
-.welcome--page__logo-icon {
+.welcome-page__logo-icon {
   width: 279px;
   
 }
-.welcome--page__link {
+.welcome-page__content-text {
   font-size: 18px;
   line-height: 25px;
   margin-bottom: 63px;
