@@ -51,12 +51,12 @@
  }
 
  .address__description {
-  opacity: 0;
+  opacity: 1;
   position: absolute;
   background:url(./../../img/address.png) center center /cover no-repeat ;
   width: 160px;
   height: 80px;
-  margin-left: 32px;
+  right: 0;
   top: 49px;
   color: #1E1F20;
   transition: 2s all ease-in-out;
